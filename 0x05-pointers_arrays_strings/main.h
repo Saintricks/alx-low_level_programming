@@ -1,5 +1,6 @@
-#ifndef _main.h
-#define _main.h
+#ifndef MAIN_H
+#define MAIN_H
+
 void _print_rev_recursion(char *s);
 int _atoi(char *s);
 char *_strcpy(char *dest, char *src);
@@ -36,4 +37,5 @@ void print_number(int n);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
+
 #endif
