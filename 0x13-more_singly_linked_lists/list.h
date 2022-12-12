@@ -1,5 +1,5 @@
-#ifndef LISTSH
-#define LISTSH
+#ifndef LISTS_H
+#define LISTS_H
 #include <stddef.h>
 
 /**
@@ -8,7 +8,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for ALX Project
  */
 typedef struct listint_s
 {
